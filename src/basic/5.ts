@@ -9,5 +9,7 @@ enum DayOfWeek {
 }
 
 const isWeekend = (day: DayOfWeek): boolean => {
-  return Boolean();
+  return Boolean(day);
 };
+
+console.log(isWeekend);
